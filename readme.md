@@ -9,7 +9,16 @@ Linux идеально подходит для запуска нейросете
 [Ollama](https://ollama.com/) cамый простой инструмент для запуска LLM (Large Language Models) в терминале Linux.
 
 - Установка: <code>curl -fsSL https://ollama.com/install.sh | sh</code>.
-- Запуск моделей: <code>ollama run llama3</code> или специализированную для кода <code>ollama run deepseek-coder-v2</code>.
+- Перезапуск: <code>sudo systemctl restart ollama</code> 
+
+Команды:
+
+- <code>ollama ps</code>, показывает только те модели, которые запущены в данный момент и потребляют ресурсы (RAM/VRAM)
+- <code>ollama list</code>, показывает все модели, которые вы когда-либо скачивали на свой компьютер.
+
+> [!Note]
+>  По умолчанию Ollama выгружает модель сама через 5 минут бездействия.
+
 
 ### DeepSeek-Coder-V2
 
