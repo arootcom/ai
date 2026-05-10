@@ -9,7 +9,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ## Установка плагина vim-ollama (через vim-plug)
 
-Репозиторий кода плагина (Ollama Support for Vim)[https://github.com/gergap/vim-ollama]
+Репозиторий кода плагина [Ollama Support for Vim](https://github.com/gergap/vim-ollama)
 
 Добавить в <code>~/.gvimrc</code>
 
@@ -47,4 +47,9 @@ source ~/.vim/plugged/vim-ollama/plugin/ollama.vim
 После внесения изменений в .vimrc перезапустить Gvim или выполнить команду <code>:source ~/.vimrc</code>.
 
 Запускаем процедуру автоматической конфигурации <code>:Ollama setup<code>
+
+
+## Умное дополнение кода (как GitHub Copilot)
+
+
 
